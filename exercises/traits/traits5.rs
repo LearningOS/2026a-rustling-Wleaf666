@@ -1,11 +1,10 @@
 // traits5.rs
 //
-// Your task is to replace the '??' sections so the code compiles.
+// 你的任务是替换 '??' 部分，使代码能够编译。
 //
-// Don't change any line other than the marked one.
+// 除标记的行外，不要修改任何其他行。
 //
-// Execute `rustlings hint traits5` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint traits5` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

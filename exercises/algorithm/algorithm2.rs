@@ -1,7 +1,8 @@
 /*
-	double linked list reverse
-	This problem requires you to reverse a doubly linked list
+	双向链表反转
+	本题要求你反转一个双向链表
 */
+
 // I AM NOT DONE
 
 use std::fmt::{self, Display, Formatter};

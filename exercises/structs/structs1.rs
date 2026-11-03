@@ -1,10 +1,8 @@
 // structs1.rs
 //
-// Address all the TODOs to make the tests pass!
+// 处理所有 TODO 以使测试通过！
 //
-// Execute `rustlings hint structs1` or use the `hint` watch subcommand for a
-// hint.
-
+// 执行 `rustlings hint structs1` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 struct ColorClassicStruct {
     

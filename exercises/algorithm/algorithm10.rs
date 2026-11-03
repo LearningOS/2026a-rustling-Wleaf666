@@ -1,7 +1,8 @@
 /*
-	graph
-	This problem requires you to implement a basic graph functio
+	图
+	本题要求你实现基本的图功能
 */
+
 // I AM NOT DONE
 
 use std::collections::{HashMap, HashSet};

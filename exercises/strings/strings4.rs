@@ -1,12 +1,10 @@
 // strings4.rs
 //
-// Ok, here are a bunch of values-- some are `String`s, some are `&str`s. Your
-// task is to call one of these two functions on each value depending on what
-// you think each value is. That is, add either `string_slice` or `string`
-// before the parentheses on each line. If you're right, it will compile!
+// 好的，这里有一组值——有些是 `String`，有些是 `&str`。你的任务是根据每个值的类型，
+// 在每行括号前调用这两个函数之一（添加 `string_slice` 或 `string`）。
+// 如果你的判断是正确的，代码就会编译通过！
 //
-// No hints this time!
-
+// 这次没有提示！
 
 fn string_slice(arg: &str) {
     println!("{}", arg);

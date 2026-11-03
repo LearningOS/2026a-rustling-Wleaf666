@@ -1,13 +1,11 @@
 // from_str.rs
 //
-// This is similar to from_into.rs, but this time we'll implement `FromStr` and
-// return errors instead of falling back to a default value. Additionally, upon
-// implementing FromStr, you can use the `parse` method on strings to generate
-// an object of the implementor type. You can read more about it at
-// https://doc.rust-lang.org/std/str/trait.FromStr.html
+// 这与 from_into.rs 类似，但这次我们将实现 `FromStr`，
+// 并在出错时返回错误而不是回退到默认值。此外，实现 FromStr 后，
+// 你可以对字符串使用 `parse` 方法来生成实现者类型的对象。
+// 你可以在这里阅读更多内容：https://doc.rust-lang.org/std/str/trait.FromStr.html
 //
-// Execute `rustlings hint from_str` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint from_str` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 use std::num::ParseIntError;
 use std::str::FromStr;

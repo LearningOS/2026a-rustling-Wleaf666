@@ -1,7 +1,6 @@
 // enums1.rs
 //
-// No hints this time! ;)
-
+// 这次没有提示哦！;)
 
 #[derive(Debug)]
 enum Message {

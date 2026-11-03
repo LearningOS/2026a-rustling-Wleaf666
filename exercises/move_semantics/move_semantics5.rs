@@ -1,11 +1,8 @@
 // move_semantics5.rs
 //
-// Make me compile only by reordering the lines in `main()`, but without adding,
-// changing or removing any of them.
+// 仅通过重新排列 `main()` 中的代码行使其编译，不要添加、修改或删除任何行。
 //
-// Execute `rustlings hint move_semantics5` or use the `hint` watch subcommand
-// for a hint.
-
+// 执行 `rustlings hint move_semantics5` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 fn main() {
     let mut x = 100;

@@ -1,26 +1,19 @@
 // errors5.rs
 //
-// This program uses an altered version of the code from errors4.
+// 本程序使用了 errors4 中代码的修改版本。
 //
-// This exercise uses some concepts that we won't get to until later in the
-// course, like `Box` and the `From` trait. It's not important to understand
-// them in detail right now, but you can read ahead if you like. For now, think
-// of the `Box<dyn ???>` type as an "I want anything that does ???" type, which,
-// given Rust's usual standards for runtime safety, should strike you as
-// somewhat lenient!
+// 本练习使用了一些我们在课程后半部分才会涉及的概念，例如 `Box` 和 `From` trait。
+// 现在不需要详细理解它们，如果你愿意，可以提前阅读相关章节。目前，你可以将
+// `Box<dyn ???>` 类型理解为“只要实现了 ??? trait 的任何类型我都接受”，鉴于 Rust
+// 平时在运行时安全方面的严格标准，这听起来应该会显得有些宽松！
 //
-// In short, this particular use case for boxes is for when you want to own a
-// value and you care only that it is a type which implements a particular
-// trait. To do so, The Box is declared as of type Box<dyn Trait> where Trait is
-// the trait the compiler looks for on any value used in that context. For this
-// exercise, that context is the potential errors which can be returned in a
-// Result.
+// 简而言之，Box 的这种特定用法适用于你想要拥有一个值的所有权，但只关心它实现了某个特定 trait 的情况。
+// 为此，Box 被声明为 Box<dyn Trait> 类型，其中 Trait 是编译器在该上下文中查找的 trait。
+// 在本练习中，该上下文是 Result 中可能返回的潜在错误。
 //
-// What can we use to describe both errors? In other words, is there a trait
-// which both errors implement?
+// 我们可以用什么来同时描述这两种错误？换句话说，是否存在这两种错误都实现了的 trait？
 //
-// Execute `rustlings hint errors5` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint errors5` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

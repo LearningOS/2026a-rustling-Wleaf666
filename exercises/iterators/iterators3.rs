@@ -1,13 +1,10 @@
 // iterators3.rs
 //
-// This is a bigger exercise than most of the others! You can do it! Here is
-// your mission, should you choose to accept it:
-// 1. Complete the divide function to get the first four tests to pass.
-// 2. Get the remaining tests to pass by completing the result_with_list and
-//    list_of_results functions.
+// 这是一个比大多数练习都大的练习！你能做到的！如果选择接受这项任务，你的目标是：
+// 1. 完成 divide 函数以使前四个测试通过。
+// 2. 通过完成 result_with_list 和 list_of_results 函数使剩余的测试通过。
 //
-// Execute `rustlings hint iterators3` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint iterators3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

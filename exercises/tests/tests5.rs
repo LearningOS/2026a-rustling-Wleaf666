@@ -1,26 +1,17 @@
 // tests5.rs
 //
-// An `unsafe` in Rust serves as a contract.
+// Rust 中的 `unsafe` 充当一种契约。
 //
-// When `unsafe` is marked on an item declaration, such as a function,
-// a trait or so on, it declares a contract alongside it. However,
-// the content of the contract cannot be expressed only by a single keyword.
-// Hence, its your responsibility to manually state it in the `# Safety`
-// section of your documentation comment on the item.
+// 当在项声明（如函数、trait 等）上标记 `unsafe` 时，它同时声明了一份契约。然而，
+// 契约的具体内容不能仅通过单个关键字来表达。因此，你有责任在项的文档注释中的 `# Safety` 章节手动说明。
 //
-// When `unsafe` is marked on a code block enclosed by curly braces,
-// it declares an observance of some contract, such as the validity of some
-// pointer parameter, the ownership of some memory address. However, like
-// the text above, you still need to state how the contract is observed in
-// the comment on the code block.
+// 当在花括号包围的代码块上标记 `unsafe` 时，它声明了对某些契约的遵守，例如某些指针参数的有效性、
+// 某些内存地址的所有权等。但与上述相同，你仍需要在代码块的注释中说明契约是如何被遵守的。
 //
-// NOTE: All the comments are for the readability and the maintainability of
-// your code, while the Rust compiler hands its trust of soundness of your
-// code to yourself! If you cannot prove the memory safety and soundness of
-// your own code, take a step back and use safe code instead!
+// 注意：所有这些注释都是为了你代码的可读性和可维护性，而 Rust 编译器则将代码健全性（soundness）的信任交给了你自己！
+// 如果你无法证明自己代码的内存安全性和健全性，请退一步，改用安全（safe）代码！
 //
-// Execute `rustlings hint tests5` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint tests5` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

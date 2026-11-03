@@ -1,13 +1,10 @@
 // errors6.rs
 //
-// Using catch-all error types like `Box<dyn error::Error>` isn't recommended
-// for library code, where callers might want to make decisions based on the
-// error content, instead of printing it out or propagating it further. Here, we
-// define a custom error type to make it possible for callers to decide what to
-// do next when our function returns an error.
+// 对于库代码，不建议使用像 `Box<dyn error::Error>` 这样包罗万象的通用错误类型，
+// 因为调用方可能希望根据具体的错误内容做出决策，而不是将其打印出来或继续向上传播。
+// 在这里，我们定义了一个自定义错误类型，使调用方能够在我们的函数返回错误时决定下一步该怎么做。
 //
-// Execute `rustlings hint errors6` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint errors6` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

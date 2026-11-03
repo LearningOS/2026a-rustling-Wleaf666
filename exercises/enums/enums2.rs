@@ -1,8 +1,6 @@
 // enums2.rs
 //
-// Execute `rustlings hint enums2` or use the `hint` watch subcommand for a
-// hint.
-
+// 执行 `rustlings hint enums2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 #[derive(Debug)]
 enum Message {

@@ -1,11 +1,9 @@
 // threads2.rs
 //
-// Building on the last exercise, we want all of the threads to complete their
-// work but this time the spawned threads need to be in charge of updating a
-// shared value: JobStatus.jobs_completed
+// 在上一个练习的基础上，我们希望所有线程都能完成它们的工作，但这次生成的线程需要负责更新一个共享值：
+// JobStatus.jobs_completed
 //
-// Execute `rustlings hint threads2` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint threads2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

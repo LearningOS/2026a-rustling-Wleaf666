@@ -1,6 +1,6 @@
 /*
-	stack
-	This question requires you to use a stack to achieve a bracket match
+	栈
+	本题要求你使用栈来实现括号匹配
 */
 
 // I AM NOT DONE

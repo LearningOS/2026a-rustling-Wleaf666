@@ -1,8 +1,8 @@
 // clippy3.rs
 // 
-// Here's a couple more easy Clippy fixes, so you can see its utility.
+// 这里还有几个简单的 Clippy 修复，让你体会它的实用性。
 //
-// Execute `rustlings hint clippy3` or use the `hint` watch subcommand for a hint.
+// 执行 `rustlings hint clippy3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

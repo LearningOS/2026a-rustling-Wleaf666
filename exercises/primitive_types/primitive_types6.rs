@@ -1,10 +1,8 @@
 // primitive_types6.rs
 //
-// Use a tuple index to access the second element of `numbers`. You can put the
-// expression for the second element where ??? is so that the test passes.
+// 使用元组索引访问 `numbers` 的第二个元素。你可以将访问第二个元素的表达式填在 ??? 处，使测试通过。
 //
-// Execute `rustlings hint primitive_types6` or use the `hint` watch subcommand
-// for a hint.
+// 执行 `rustlings hint primitive_types6` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

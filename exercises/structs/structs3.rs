@@ -1,11 +1,10 @@
 // structs3.rs
 //
-// Structs contain data, but can also have logic. In this exercise we have
-// defined the Package struct and we want to test some logic attached to it.
-// Make the code compile and the tests pass!
+// 结构体不仅可以存储数据，还可以包含逻辑。在这个练习中，我们定义了 Package 结构体，
+// 并希望测试附加在它上面的某些逻辑。
+// 让代码通过编译并使测试通过！
 //
-// Execute `rustlings hint structs3` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint structs3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

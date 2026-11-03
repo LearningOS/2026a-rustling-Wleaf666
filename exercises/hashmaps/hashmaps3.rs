@@ -1,19 +1,15 @@
 // hashmaps3.rs
 //
-// A list of scores (one per line) of a soccer match is given. Each line is of
-// the form : "<team_1_name>,<team_2_name>,<team_1_goals>,<team_2_goals>"
-// Example: England,France,4,2 (England scored 4 goals, France 2).
+// 给出一份足球比赛的得分列表（每行一场）。每行的格式为：
+// "<team_1_name>,<team_2_name>,<team_1_goals>,<team_2_goals>"
+// 例如：England,France,4,2（英格兰进 4 球，法国进 2 球）。
 //
-// You have to build a scores table containing the name of the team, goals the
-// team scored, and goals the team conceded. One approach to build the scores
-// table is to use a Hashmap. The solution is partially written to use a
-// Hashmap, complete it to pass the test.
+// 你需要构建一个得分表，包含队伍名称、该队的进球数以及失球数。
+// 构建得分表的一种方法是使用 Hashmap。代码已经部分实现了 Hashmap，请将其补全以通过测试。
 //
-// Make me pass the tests!
+// 使测试通过！
 //
-// Execute `rustlings hint hashmaps3` or use the `hint` watch subcommand for a
-// hint.
-
+// 执行 `rustlings hint hashmaps3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 use std::collections::HashMap;
 

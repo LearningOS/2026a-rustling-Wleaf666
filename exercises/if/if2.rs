@@ -1,10 +1,9 @@
 // if2.rs
 //
-// Step 1: Make me compile!
-// Step 2: Get the bar_for_fuzz and default_to_baz tests passing!
+// 步骤 1：让代码通过编译！
+// 步骤 2：使 bar_for_fuzz 和 default_to_baz 测试通过！
 //
-// Execute `rustlings hint if2` or use the `hint` watch subcommand for a hint.
-
+// 执行 `rustlings hint if2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 pub fn foo_if_fizz(fizzish: &str) -> &str {
     if fizzish == "fizz" {

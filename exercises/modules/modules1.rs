@@ -1,8 +1,6 @@
 // modules1.rs
 //
-// Execute `rustlings hint modules1` or use the `hint` watch subcommand for a
-// hint.
-
+// 执行 `rustlings hint modules1` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 mod sausage_factory {
     // Don't let anybody outside of this module see this!

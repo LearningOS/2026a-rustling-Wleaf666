@@ -1,9 +1,8 @@
 // primitive_types3.rs
 //
-// Create an array with at least 100 elements in it where the ??? is.
+// 在 ??? 处创建一个至少包含 100 个元素的数组。
 //
-// Execute `rustlings hint primitive_types3` or use the `hint` watch subcommand
-// for a hint.
+// 执行 `rustlings hint primitive_types3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

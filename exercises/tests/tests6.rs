@@ -1,11 +1,9 @@
 // tests6.rs
 //
-// In this example we take a shallow dive into the Rust standard library's
-// unsafe functions. Fix all the question marks and todos to make the test
-// pass.
+// 在这个例子中，我们浅尝一下 Rust 标准库中的 unsafe 函数。
+// 修复所有的问号和 todo 以使测试通过。
 //
-// Execute `rustlings hint tests6` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint tests6` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

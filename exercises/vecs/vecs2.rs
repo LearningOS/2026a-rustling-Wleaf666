@@ -1,11 +1,10 @@
 // vecs2.rs
 //
-// A Vec of even numbers is given. Your task is to complete the loop so that
-// each number in the Vec is multiplied by 2.
+// 给定一个由偶数组成的 Vec。你的任务是补全循环，使 Vec 中的每个数字都乘以 2。
 //
-// Make me pass the test!
+// 使测试通过！
 //
-// Execute `rustlings hint vecs2` or use the `hint` watch subcommand for a hint.
+// 执行 `rustlings hint vecs2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

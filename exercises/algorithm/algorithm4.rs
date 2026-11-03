@@ -1,6 +1,6 @@
 /*
-	binary_search tree
-	This problem requires you to implement a basic interface for a binary tree
+	二叉搜索树
+	本题要求你实现二叉搜索树的基本接口
 */
 
 //I AM NOT DONE

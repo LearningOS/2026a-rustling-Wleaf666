@@ -1,9 +1,8 @@
 // primitive_types5.rs
 //
-// Destructure the `cat` tuple so that the println will work.
+// 解构 `cat` 元组，使 println 能够正常输出。
 //
-// Execute `rustlings hint primitive_types5` or use the `hint` watch subcommand
-// for a hint.
+// 执行 `rustlings hint primitive_types5` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

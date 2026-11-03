@@ -1,12 +1,9 @@
 // modules3.rs
 //
-// You can use the 'use' keyword to bring module paths from modules from
-// anywhere and especially from the Rust standard library into your scope. Bring
-// SystemTime and UNIX_EPOCH from the std::time module. Bonus style points if
-// you can do it with one line!
+// 你可以使用 'use' 关键字将任何模块中的路径引入作用域，尤其是 Rust 标准库中的模块。
+// 从 std::time 模块引入 SystemTime 和 UNIX_EPOCH。如果你能在一行内完成，可获得额外加分！
 //
-// Execute `rustlings hint modules3` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint modules3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

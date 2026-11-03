@@ -1,13 +1,12 @@
 // clippy1.rs
 //
-// The Clippy tool is a collection of lints to analyze your code so you can
-// catch common mistakes and improve your Rust code.
+// Clippy 工具是一系列 lint 检查的集合，用于分析你的代码，
+// 以便发现常见错误并改进你的 Rust 代码。
 //
-// For these exercises the code will fail to compile when there are clippy
-// warnings check clippy's suggestions from the output to solve the exercise.
+// 在这些练习中，当存在 clippy 警告时代码将编译失败。
+// 查看输出中 clippy 的建议来解决此练习。
 //
-// Execute `rustlings hint clippy1` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint clippy1` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

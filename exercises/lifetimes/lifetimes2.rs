@@ -1,10 +1,8 @@
 // lifetimes2.rs
 //
-// So if the compiler is just validating the references passed to the annotated
-// parameters and the return type, what do we need to change?
+// 如果编译器只是在验证传递给标注了生命周期的参数与返回类型之间的引用关系，那么我们需要修改什么？
 //
-// Execute `rustlings hint lifetimes2` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint lifetimes2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

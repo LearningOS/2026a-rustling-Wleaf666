@@ -1,10 +1,8 @@
 // primitive_types2.rs
 //
-// Fill in the rest of the line that has code missing! No hints, there's no
-// tricks, just get used to typing these :)
+// 补全缺少代码的行！没有提示，也没有捷径，多敲代码熟悉它们即可 :)
 //
-// Execute `rustlings hint primitive_types2` or use the `hint` watch subcommand
-// for a hint.
+// 执行 `rustlings hint primitive_types2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

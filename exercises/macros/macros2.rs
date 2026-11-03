@@ -1,7 +1,6 @@
 // macros2.rs
 //
-// Execute `rustlings hint macros2` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint macros2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

@@ -1,11 +1,9 @@
 // modules2.rs
 //
-// You can bring module paths into scopes and provide new names for them with
-// the 'use' and 'as' keywords. Fix these 'use' statements to make the code
-// compile.
+// 你可以使用 'use' 和 'as' 关键字将模块路径引入作用域并为其指定别名。
+// 修复这些 'use' 语句以使代码通过编译。
 //
-// Execute `rustlings hint modules2` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint modules2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

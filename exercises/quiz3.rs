@@ -1,20 +1,17 @@
 // quiz3.rs
 //
-// This quiz tests:
-// - Generics
-// - Traits
+// 本测验测试以下内容：
+// - 泛型 (Generics)
+// - 特征 (Traits)
 //
-// An imaginary magical school has a new report card generation system written
-// in Rust! Currently the system only supports creating report cards where the
-// student's grade is represented numerically (e.g. 1.0 -> 5.5). However, the
-// school also issues alphabetical grades (A+ -> F-) and needs to be able to
-// print both types of report card!
+// 一所虚拟的魔法学校拥有一个用 Rust 编写的新成绩单生成系统！
+// 目前该系统仅支持生成以数字表示学生成绩的成绩单（例如 1.0 -> 5.5）。
+// 然而，学校还发放字母等级（A+ -> F-），并且需要能够打印这两种类型的成绩单！
 //
-// Make the necessary code changes in the struct ReportCard and the impl block
-// to support alphabetical report cards. Change the Grade in the second test to
-// "A+" to show that your changes allow alphabetical grades.
+// 在 ReportCard 结构体和 impl 块中进行必要的代码修改以支持字母成绩单。
+// 将第二个测试中的 Grade 改为 "A+"，以表明你的修改支持字母等级。
 //
-// Execute `rustlings hint quiz3` or use the `hint` watch subcommand for a hint.
+// 执行 `rustlings hint quiz3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

@@ -1,12 +1,10 @@
 // traits3.rs
 //
-// Your task is to implement the Licensed trait for both structures and have
-// them return the same information without writing the same function twice.
+// 你的任务是为两个结构体都实现 Licensed trait，并让它们在不编写两次相同函数的情况下返回相同的信息。
 //
-// Consider what you can add to the Licensed trait.
+// 考虑一下你可以向 Licensed trait 中添加什么。
 //
-// Execute `rustlings hint traits3` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint traits3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

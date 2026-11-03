@@ -1,14 +1,11 @@
 // using_as.rs
 //
-// Type casting in Rust is done via the usage of the `as` operator. Please note
-// that the `as` operator is not only used when type casting. It also helps with
-// renaming imports.
+// Rust 中的类型转换是通过使用 `as` 运算符完成的。请注意，
+// `as` 运算符不仅用于类型转换，还可以帮助重命名导入项。
 //
-// The goal is to make sure that the division does not fail to compile and
-// returns the proper type.
+// 目标是确保除法运算不会编译失败，并且返回正确的类型。
 //
-// Execute `rustlings hint using_as` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint using_as` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

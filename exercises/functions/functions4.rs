@@ -1,13 +1,10 @@
 // functions4.rs
 //
-// This store is having a sale where if the price is an even number, you get 10
-// Rustbucks off, but if it's an odd number, it's 3 Rustbucks off. (Don't worry
-// about the function bodies themselves, we're only interested in the signatures
-// for now. If anything, this is a good way to peek ahead to future exercises!)
+// 这家商店正在打折：如果原价是偶数，立减 10 Rustbucks；
+// 如果是奇数，立减 3 Rustbucks。（先不用担心函数体本身，
+// 我们目前只关注函数签名。无论如何，这是提前预览后续练习的好方法！）
 //
-// Execute `rustlings hint functions4` or use the `hint` watch subcommand for a
-// hint.
-
+// 执行 `rustlings hint functions4` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 fn main() {
     let original_price = 51;

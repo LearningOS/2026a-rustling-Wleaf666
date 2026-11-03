@@ -1,13 +1,10 @@
 // try_from_into.rs
 //
-// TryFrom is a simple and safe type conversion that may fail in a controlled
-// way under some circumstances. Basically, this is the same as From. The main
-// difference is that this should return a Result type instead of the target
-// type itself. You can read more about it at
-// https://doc.rust-lang.org/std/convert/trait.TryFrom.html
+// TryFrom 是一种简单且安全的类型转换，在某些情况下可能会以受控方式失败。
+// 基本上它与 From 相同。主要区别在于它应该返回一个 Result 类型，而不是目标类型本身。
+// 你可以在这里阅读更多内容：https://doc.rust-lang.org/std/convert/trait.TryFrom.html
 //
-// Execute `rustlings hint try_from_into` or use the `hint` watch subcommand for
-// a hint.
+// 执行 `rustlings hint try_from_into` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 use std::convert::{TryFrom, TryInto};
 

@@ -1,9 +1,8 @@
 // macros3.rs
 //
-// Make me compile, without taking the macro out of the module!
+// 在不将宏移出模块的前提下，让代码通过编译！
 //
-// Execute `rustlings hint macros3` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint macros3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

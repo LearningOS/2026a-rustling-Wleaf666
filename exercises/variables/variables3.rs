@@ -1,8 +1,6 @@
 // variables3.rs
 //
-// Execute `rustlings hint variables3` or use the `hint` watch subcommand for a
-// hint.
-
+// 执行 `rustlings hint variables3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 fn main() {
     let x: i32=25;

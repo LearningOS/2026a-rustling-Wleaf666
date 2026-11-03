@@ -1,7 +1,8 @@
 /*
-	queue
-	This question requires you to use queues to implement the functionality of the stac
+	队列
+	本题要求你使用队列来实现栈的功能
 */
+
 // I AM NOT DONE
 
 #[derive(Debug)]

@@ -1,10 +1,8 @@
 // iterators2.rs
 //
-// In this exercise, you'll learn some of the unique advantages that iterators
-// can offer. Follow the steps to complete the exercise.
+// 在本练习中，你将学习迭代器能够提供的一些独特优势。按照步骤完成练习。
 //
-// Execute `rustlings hint iterators2` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint iterators2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

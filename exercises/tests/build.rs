@@ -1,6 +1,6 @@
-//! This is the build script for both tests7 and tests8.
+//! 这是 tests7 和 tests8 的构建脚本。
 //!
-//! You should modify this file to make both exercises pass.
+//! 你需要修改此文件以使这两个练习都通过。
 
 fn main() {
     // In tests7, we should set up an environment variable

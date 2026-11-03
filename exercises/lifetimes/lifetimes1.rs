@@ -1,12 +1,9 @@
 // lifetimes1.rs
 //
-// The Rust compiler needs to know how to check whether supplied references are
-// valid, so that it can let the programmer know if a reference is at risk of
-// going out of scope before it is used. Remember, references are borrows and do
-// not own their own data. What if their owner goes out of scope?
+// Rust 编译器需要知道如何检查传入的引用是否有效，以便在引用被使用前存在超出作用域的风险时提醒程序员。
+// 请记住，引用是借用，并不拥有自己的数据。如果它们的所有者超出了作用域会怎么样？
 //
-// Execute `rustlings hint lifetimes1` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint lifetimes1` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

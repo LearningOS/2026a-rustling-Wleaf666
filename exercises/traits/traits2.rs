@@ -1,12 +1,11 @@
 // traits2.rs
 //
-// Your task is to implement the trait `AppendBar` for a vector of strings. To
-// implement this trait, consider for a moment what it means to 'append "Bar"'
-// to a vector of strings.
+// 你的任务是为字符串向量（vector of strings）实现 `AppendBar` trait。
+// 在实现此 trait 时，请稍加思考向字符串向量“追加 "Bar"”意味着什么。
 //
-// No boiler plate code this time, you can do this!
+// 这次没有样板代码，你能做到的！
 //
-// Execute `rustlings hint traits2` or use the `hint` watch subcommand for a hint.
+// 执行 `rustlings hint traits2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

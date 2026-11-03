@@ -1,11 +1,9 @@
 // errors3.rs
 //
-// This is a program that is trying to use a completed version of the
-// `total_cost` function from the previous exercise. It's not working though!
-// Why not? What should we do to fix it?
+// 这是一个试图使用上一个练习中完成版 `total_cost` 函数的程序。但它无法正常运行！
+// 为什么不行？我们应该怎么修复它？
 //
-// Execute `rustlings hint errors3` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint errors3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

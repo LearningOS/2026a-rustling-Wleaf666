@@ -1,11 +1,9 @@
 // tests8.rs
 //
-// This execrise shares `build.rs` with the previous exercise.
-// You need to add some code to `build.rs` to make both this exercise and
-// the previous one work.
+// 本练习与上一个练习共享 `build.rs`。
+// 你需要在 `build.rs` 中添加一些代码，使本练习和上一个练习都能正常工作。
 //
-// Execute `rustlings hint tests8` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint tests8` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

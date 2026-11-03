@@ -1,11 +1,11 @@
 // as_ref_mut.rs
 //
-// AsRef and AsMut allow for cheap reference-to-reference conversions. Read more
-// about them at https://doc.rust-lang.org/std/convert/trait.AsRef.html and
-// https://doc.rust-lang.org/std/convert/trait.AsMut.html, respectively.
+// AsRef 和 AsMut 允许进行开销很小的引用到引用的转换。
+// 请分别在以下链接中了解更多信息：
+// https://doc.rust-lang.org/std/convert/trait.AsRef.html 和
+// https://doc.rust-lang.org/std/convert/trait.AsMut.html。
 //
-// Execute `rustlings hint as_ref_mut` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint as_ref_mut` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

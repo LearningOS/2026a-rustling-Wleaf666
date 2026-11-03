@@ -1,7 +1,6 @@
 // functions1.rs
 //
-// Execute `rustlings hint functions1` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint functions1` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 fn call_me()
 {

@@ -1,6 +1,6 @@
 /*
-	bfs
-	This problem requires you to implement a basic BFS algorithm
+	广度优先搜索 (BFS)
+	本题要求你实现基本的 BFS 算法
 */
 
 //I AM NOT DONE

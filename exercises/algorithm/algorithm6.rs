@@ -1,6 +1,6 @@
 /*
-	dfs
-	This problem requires you to implement a basic DFS traversal
+	深度优先搜索 (DFS)
+	本题要求你实现基本的 DFS 遍历
 */
 
 // I AM NOT DONE

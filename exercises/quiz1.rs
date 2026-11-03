@@ -1,17 +1,16 @@
 // quiz1.rs
 //
-// This is a quiz for the following sections:
-// - Variables
-// - Functions
-// - If
+// 这是针对以下章节的测验：
+// - 变量 (Variables)
+// - 函数 (Functions)
+// - 条件语句 (If)
 //
-// Mary is buying apples. The price of an apple is calculated as follows:
-// - An apple costs 2 rustbucks.
-// - If Mary buys more than 40 apples, each apple only costs 1 rustbuck!
-// Write a function that calculates the price of an order of apples given the
-// quantity bought.
+// 玛丽正在买苹果。苹果的价格计算方式如下：
+// - 每个苹果售价 2 rustbucks。
+// - 如果玛丽购买超过 40 个苹果，每个苹果的价格立减为 1 rustbuck！
+// 请编写一个函数，根据购买的苹果数量计算订单的总价。
 //
-// No hints this time ;)
+// 这次没有提示哦 ;)
 
 // I AM NOT DONE
 

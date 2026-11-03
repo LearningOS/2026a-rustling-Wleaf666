@@ -1,13 +1,10 @@
 // move_semantics2.rs
 //
-// Expected output:
+// 预期输出：
 // vec0 has length 3, with contents `[22, 44, 66]`
 // vec1 has length 4, with contents `[22, 44, 66, 88]`
 //
-// Execute `rustlings hint move_semantics2` or use the `hint` watch subcommand
-// for a hint.
-
-
+// 执行 `rustlings hint move_semantics2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 fn main() {
     let vec0 = Vec::new();

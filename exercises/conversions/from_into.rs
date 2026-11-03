@@ -1,11 +1,10 @@
 // from_into.rs
 //
-// The From trait is used for value-to-value conversions. If From is implemented
-// correctly for a type, the Into trait should work conversely. You can read
-// more about it at https://doc.rust-lang.org/std/convert/trait.From.html
+// From trait 用于值到值的转换。如果为某个类型正确实现了 From，
+// 那么 Into trait 应该反向生效。你可以在这里阅读更多内容：
+// https://doc.rust-lang.org/std/convert/trait.From.html
 //
-// Execute `rustlings hint from_into` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint from_into` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 #[derive(Debug)]
 struct Person {

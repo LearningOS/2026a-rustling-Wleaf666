@@ -1,7 +1,8 @@
 /*
-	heap
-	This question requires you to implement a binary heap function
+	堆
+	本题要求你实现一个二叉堆的功能
 */
+
 // I AM NOT DONE
 
 use std::cmp::Ord;

@@ -1,24 +1,22 @@
 // quiz2.rs
 //
-// This is a quiz for the following sections:
-// - Strings
-// - Vecs
-// - Move semantics
-// - Modules
-// - Enums
+// 这是针对以下章节的测验：
+// - 字符串 (Strings)
+// - 向量 (Vecs)
+// - 移动语义 (Move semantics)
+// - 模块 (Modules)
+// - 枚举 (Enums)
 //
-// Let's build a little machine in the form of a function. As input, we're going
-// to give a list of strings and commands. These commands determine what action
-// is going to be applied to the string. It can either be:
-// - Uppercase the string
-// - Trim the string
-// - Append "bar" to the string a specified amount of times
-// The exact form of this will be:
-// - The input is going to be a Vector of a 2-length tuple,
-//   the first element is the string, the second one is the command.
-// - The output element is going to be a Vector of strings.
+// 让我们以函数的形式构建一个小机器。我们将输入一个由字符串和命令组成的列表。
+// 这些命令决定对字符串执行什么操作：
+// - 将字符串转为大写
+// - 修剪字符串首尾空白
+// - 将 "bar" 附加到字符串后指定次数
+// 具体的格式如下：
+// - 输入是一个由 2 元元组组成的 Vector，元组第一个元素是字符串，第二个是命令。
+// - 输出是一个由处理后的字符串组成的 Vector。
 //
-// No hints this time!
+// 这次没有提示！
 
 // I AM NOT DONE
 

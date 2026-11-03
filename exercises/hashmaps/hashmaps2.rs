@@ -1,18 +1,14 @@
 // hashmaps2.rs
 //
-// We're collecting different fruits to bake a delicious fruit cake. For this,
-// we have a basket, which we'll represent in the form of a hash map. The key
-// represents the name of each fruit we collect and the value represents how
-// many of that particular fruit we have collected. Three types of fruits -
-// Apple (4), Mango (2) and Lychee (5) are already in the basket hash map. You
-// must add fruit to the basket so that there is at least one of each kind and
-// more than 11 in total - we have a lot of mouths to feed. You are not allowed
-// to insert any more of these fruits!
+// 我们正在收集不同的水果来烤一个美味的水果蛋糕。为此我们有一个篮子，将其表示为哈希表。
+// 键代表我们收集的每种水果的名字，值代表收集到的该特定水果的数量。
+// 篮子哈希表中已经有三种水果——Apple (4), Mango (2) 和 Lychee (5)。
+// 你必须向篮子中添加水果，使得每种水果至少有一个，且总数超过 11 个——有很多人等着吃呢。
+// 你不允许再插入这三种已有水果中的任何一种！
 //
-// Make me pass the tests!
+// 使测试通过！
 //
-// Execute `rustlings hint hashmaps2` or use the `hint` watch subcommand for a
-// hint.
+// 执行 `rustlings hint hashmaps2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 

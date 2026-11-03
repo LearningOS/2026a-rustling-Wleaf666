@@ -1,16 +1,13 @@
 // cow1.rs
 //
-// This exercise explores the Cow, or Clone-On-Write type. Cow is a
-// clone-on-write smart pointer. It can enclose and provide immutable access to
-// borrowed data, and clone the data lazily when mutation or ownership is
-// required. The type is designed to work with general borrowed data via the
-// Borrow trait.
+// 本练习探讨 Cow（写时克隆，Clone-On-Write）类型。Cow 是一种写时克隆的智能指针。
+// 它可以封装借用数据并提供对其的不变访问，仅在需要修改或获取所有权时惰性地克隆数据。
+// 该类型设计用于通过 Borrow trait 处理通用的借用数据。
 //
-// This exercise is meant to show you what to expect when passing data to Cow.
-// Fix the unit tests by checking for Cow::Owned(_) and Cow::Borrowed(_) at the
-// TODO markers.
+// 本练习旨在向你展示将数据传递给 Cow 时的预期行为。
+// 在 TODO 标记处通过检查 Cow::Owned(_) 和 Cow::Borrowed(_) 来修复单元测试。
 //
-// Execute `rustlings hint cow1` or use the `hint` watch subcommand for a hint.
+// 执行 `rustlings hint cow1` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
 // I AM NOT DONE
 
