@@ -13,15 +13,18 @@
 
 // I AM NOT DONE
 
-use std::collections::HashMap;
+use std::collections::{HashMap, hash_map};
 
 fn fruit_basket() -> HashMap<String, u32> {
-    let mut basket = // TODO: declare your hash map here.
+    let mut basket = HashMap::new();
 
     // Two bananas are already given for you :)
     basket.insert(String::from("banana"), 2);
 
     // TODO: Put more fruits in your basket here.
+    basket.insert(String::from("apple"), 2);
+    basket.insert(String::from("orange"), 2);
+    basket.insert(String::from("watermelon"), 2);
 
     basket
 }
