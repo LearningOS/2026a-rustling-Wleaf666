@@ -2,7 +2,6 @@
 //
 // 执行 `rustlings hint iterators4` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
 
 pub fn factorial(num: u64) -> u64 {
     // Complete this function to return the factorial of num
@@ -14,6 +13,7 @@ pub fn factorial(num: u64) -> u64 {
     // For an extra challenge, don't use:
     // - recursion
     // Execute `rustlings hint iterators4` for hints.
+    (1..=num).fold(1,|sum,x|sum*x)
 }
 
 #[cfg(test)]
