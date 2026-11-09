@@ -15,40 +15,40 @@ struct Color {
     blue: u8,
 }
 
-// We will use this error type for these `TryFrom` conversions.
+// 在下面这些 TryFrom 转换中使用此错误类型。
 #[derive(Debug, PartialEq)]
 enum IntoColorError {
-    // Incorrect length of slice
+    // 切片长度不正确。
     BadLen,
-    // Integer conversion error
+    // 整数转换失败。
     IntConversion,
 }
 
 // I AM NOT DONE
 
-// Your task is to complete this implementation and return an Ok result of inner
-// type Color. You need to create an implementation for a tuple of three
-// integers, an array of three integers, and a slice of integers.
+// 你的任务是补全下面的实现，成功时返回内部值为 Color 的 Ok 结果。
+// 需要分别为三种输入实现转换：包含三个整数的元组、
+// 包含三个整数的数组，以及整数切片。
 //
-// Note that the implementation for tuple and array will be checked at compile
-// time, but the slice implementation needs to check the slice length! Also note
-// that correct RGB color values must be integers in the 0..=255 range.
+// 注意：元组和数组的元素数量可在编译时确定，
+// 但切片的长度需要在运行时检查！另外，
+// 有效的 RGB 颜色分量必须是 0..=255 范围内的整数。
 
-// Tuple implementation
+// 元组的转换实现。
 impl TryFrom<(i16, i16, i16)> for Color {
     type Error = IntoColorError;
     fn try_from(tuple: (i16, i16, i16)) -> Result<Self, Self::Error> {
     }
 }
 
-// Array implementation
+// 数组的转换实现。
 impl TryFrom<[i16; 3]> for Color {
     type Error = IntoColorError;
     fn try_from(arr: [i16; 3]) -> Result<Self, Self::Error> {
     }
 }
 
-// Slice implementation
+// 切片的转换实现。
 impl TryFrom<&[i16]> for Color {
     type Error = IntoColorError;
     fn try_from(slice: &[i16]) -> Result<Self, Self::Error> {
@@ -56,19 +56,19 @@ impl TryFrom<&[i16]> for Color {
 }
 
 fn main() {
-    // Use the `try_from` function
+    // 使用 try_from 函数进行转换。
     let c1 = Color::try_from((183, 65, 14));
     println!("{:?}", c1);
 
-    // Since TryFrom is implemented for Color, we should be able to use TryInto
+    // 已经为 Color 实现了 TryFrom，因此也可以使用 TryInto 进行同方向的转换。
     let c2: Result<Color, _> = [183, 65, 14].try_into();
     println!("{:?}", c2);
 
     let v = vec![183, 65, 14];
-    // With slice we should use `try_from` function
+    // 对于切片，可以使用 try_from 函数进行转换。
     let c3 = Color::try_from(&v[..]);
     println!("{:?}", c3);
-    // or take slice within round brackets and use TryInto
+    // 也可以用圆括号括住切片表达式，再调用 try_into()。
     let c4: Result<Color, _> = (&v[..]).try_into();
     println!("{:?}", c4);
 }

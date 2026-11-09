@@ -16,36 +16,35 @@ struct Person {
     age: usize,
 }
 
-// We will use this error type for the `FromStr` implementation.
+// 在 FromStr 实现中使用下面的错误类型。
 #[derive(Debug, PartialEq)]
 enum ParsePersonError {
-    // Empty input string
+    // 输入字符串为空。
     Empty,
-    // Incorrect number of fields
+    // 字段数量不正确。
     BadLen,
-    // Empty name field
+    // 姓名字段为空。
     NoName,
-    // Wrapped error from parse::<usize>()
+    // 包装 parse::<usize>() 返回的错误。
     ParseInt(ParseIntError),
 }
 
 // I AM NOT DONE
 
-// Steps:
-// 1. If the length of the provided string is 0, an error should be returned
-// 2. Split the given string on the commas present in it
-// 3. Only 2 elements should be returned from the split, otherwise return an
-//    error
-// 4. Extract the first element from the split operation and use it as the name
-// 5. Extract the other element from the split operation and parse it into a
-//    `usize` as the age with something like `"4".parse::<usize>()`
-// 6. If while extracting the name and the age something goes wrong, an error
-//    should be returned
-// If everything goes well, then return a Result of a Person object
+// 步骤：
+// 1. 如果传入的字符串长度为 0，则返回错误。
+// 2. 按逗号拆分传入的字符串。
+// 3. 拆分结果必须恰好包含两个元素，否则返回错误。
+// 4. 取出拆分后的第一部分，作为姓名。
+// 5. 取出另一部分，使用类似 `"4".parse::<usize>()` 的写法，
+//    将其解析为 usize，作为年龄。
+// 6. 如果提取姓名或年龄的过程中出错，则返回错误。
+// 如果一切顺利，则返回包含 Person 实例的 Result。
 //
-// As an aside: `Box<dyn Error>` implements `From<&'_ str>`. This means that if
-// you want to return a string error message, you can do so via just using
-// return `Err("my error message".into())`.
+// 补充说明：`Box<dyn Error>` 实现了 `From<&'_ str>`。
+// 因此，如果使用它作为错误类型，就可以通过
+// `return Err("我的错误信息".into())` 返回字符串错误信息。
+// 这是通用说明；本题使用的错误类型是上面的 ParsePersonError。
 
 impl FromStr for Person {
     type Err = ParsePersonError;
