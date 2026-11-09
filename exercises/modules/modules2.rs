@@ -5,7 +5,6 @@
 //
 // 执行 `rustlings hint modules2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
 
 mod delicious_snacks {
     // TODO: Fix these use statements

@@ -4,7 +4,7 @@
 //
 // 执行 `rustlings hint primitive_types2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
+
 
 fn main() {
     // Characters (`char`)
@@ -20,7 +20,7 @@ fn main() {
         println!("Neither alphabetic nor numeric!");
     }
 
-    let // Finish this line like the example! What's your favorite character?
+    let your_character = 'W';// Finish this line like the example! What's your favorite character?
     // Try a letter, try a number, try a special character, try a character
     // from a different language than your own, try an emoji!
     if your_character.is_alphabetic() {

@@ -8,7 +8,6 @@
 //
 // 执行 `rustlings hint hashmaps1` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
 
 use std::collections::{HashMap, hash_map};
 

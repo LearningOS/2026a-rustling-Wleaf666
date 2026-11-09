@@ -7,8 +7,6 @@
 //
 // 执行 `rustlings hint traits2` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
-
 trait AppendBar {
     fn append_bar(self) -> Self;
 }

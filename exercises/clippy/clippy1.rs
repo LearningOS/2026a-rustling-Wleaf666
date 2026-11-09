@@ -8,12 +8,11 @@
 //
 // 执行 `rustlings hint clippy1` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
 
 use std::f32;
 
 fn main() {
-    let pi = 3.14f32;
+    let pi = std::f32::consts::PI;
     let radius = 5.00f32;
 
     let area = pi * f32::powi(radius, 2);

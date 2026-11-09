@@ -7,7 +7,7 @@
 //
 // 执行 `rustlings hint iterators1` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
+
 
 fn main() {
     let my_fav_fruits = vec!["banana", "custard apple", "avocado", "peach", "raspberry"];

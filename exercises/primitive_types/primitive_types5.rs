@@ -4,11 +4,9 @@
 //
 // 执行 `rustlings hint primitive_types5` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
-
 fn main() {
     let cat = ("Furry McFurson", 3.5);
-    let /* your pattern here */ = cat;
+    let (name,age) = cat;
 
     println!("{} is {} years old.", name, age);
 }

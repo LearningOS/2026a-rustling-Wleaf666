@@ -8,7 +8,6 @@
 //
 // 执行 `rustlings hint rc1` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
 
 use std::rc::Rc;
 
@@ -58,17 +57,17 @@ fn main() {
     jupiter.details();
 
     // TODO
-    let saturn = Planet::Saturn(Rc::new(Sun {}));
+    let saturn = Planet::Saturn(Rc::clone(&sun));
     println!("reference count = {}", Rc::strong_count(&sun)); // 7 references
     saturn.details();
 
     // TODO
-    let uranus = Planet::Uranus(Rc::new(Sun {}));
+    let uranus = Planet::Uranus(Rc::clone(&sun));
     println!("reference count = {}", Rc::strong_count(&sun)); // 8 references
     uranus.details();
 
     // TODO
-    let neptune = Planet::Neptune(Rc::new(Sun {}));
+    let neptune = Planet::Neptune(Rc::clone(&sun));
     println!("reference count = {}", Rc::strong_count(&sun)); // 9 references
     neptune.details();
 
@@ -89,13 +88,13 @@ fn main() {
     drop(mars);
     println!("reference count = {}", Rc::strong_count(&sun)); // 4 references
 
-    // TODO
+    drop(mercury);
     println!("reference count = {}", Rc::strong_count(&sun)); // 3 references
 
-    // TODO
+    drop(venus);
     println!("reference count = {}", Rc::strong_count(&sun)); // 2 references
 
-    // TODO
+    drop(earth);
     println!("reference count = {}", Rc::strong_count(&sun)); // 1 reference
 
     assert_eq!(Rc::strong_count(&sun), 1);

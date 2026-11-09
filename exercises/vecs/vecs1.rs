@@ -6,7 +6,7 @@
 //
 // 执行 `rustlings hint vecs1` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
+
 
 fn array_and_vec() -> ([i32; 4], Vec<i32>) {
     let a = [10, 20, 30, 40]; // a plain array

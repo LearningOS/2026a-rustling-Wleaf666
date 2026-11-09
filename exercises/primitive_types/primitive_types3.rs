@@ -4,10 +4,10 @@
 //
 // 执行 `rustlings hint primitive_types3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
+
 
 fn main() {
-    let a = ???
+    let a = [0;100];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");

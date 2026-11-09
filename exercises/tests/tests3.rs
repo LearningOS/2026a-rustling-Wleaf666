@@ -5,7 +5,6 @@
 //
 // 执行 `rustlings hint tests3` 或在 watch 模式下使用 `hint` 子命令以获取提示。
 
-// I AM NOT DONE
 
 pub fn is_even(num: i32) -> bool {
     num % 2 == 0
