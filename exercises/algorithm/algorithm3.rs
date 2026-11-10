@@ -6,8 +6,14 @@
 
 // I AM NOT DONE
 
-fn sort<T>(array: &mut [T]){
-	//TODO
+fn sort<T:Ord>(array: &mut [T]){
+	for end in (1..array.len()).rev() {
+        for i in 0..end {
+            if array[i] > array[i + 1] {
+                array.swap(i, i + 1);
+            }
+        }
+    }
 }
 #[cfg(test)]
 mod tests {

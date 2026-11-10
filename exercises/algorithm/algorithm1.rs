@@ -3,8 +3,8 @@
 	本题要求你将两个有序的单向链表合并为一个有序的单向链表
 */
 
-// I AM NOT DONE
 
+use std::collections::linked_list;
 use std::fmt::{self, Display, Formatter};
 use std::ptr::NonNull;
 use std::vec::*;
@@ -70,15 +70,67 @@ impl<T> LinkedList<T> {
             },
         }
     }
-	pub fn merge(list_a:LinkedList<T>,list_b:LinkedList<T>) -> Self
-	{
-		//TODO
-		Self {
-            length: 0,
-            start: None,
-            end: None,
+ pub fn merge(list_a: LinkedList<T>, list_b: LinkedList<T>) -> Self
+    where T:Ord
+    {
+        // 有一条为空，直接返回另一条。
+        if list_a.start.is_none() {
+            return list_b;
         }
-	}
+        if list_b.start.is_none() {
+            return list_a;
+        }
+
+        let mut a = list_a.start;
+        let mut b = list_b.start;
+
+        let mut result = Self::new();
+        result.length = list_a.length + list_b.length;
+
+        while let (Some(a_ptr), Some(b_ptr)) = (a, b) {
+            // SAFETY: 两条链表独占各自的有效节点。
+            // 这里只修改链接，不释放节点，也不移动其中的值。
+            unsafe {
+                // 选出较小的节点，并推进对应的游标。
+                let chosen = if (*a_ptr.as_ptr()).val <= (*b_ptr.as_ptr()).val {
+                    a = (*a_ptr.as_ptr()).next;
+                    a_ptr
+                } else {
+                    b = (*b_ptr.as_ptr()).next;
+                    b_ptr
+                };
+
+                // 将选中的节点从原来的后续链条中断开。
+                (*chosen.as_ptr()).next = None;
+
+                // 把它接到结果链表尾部。
+                match result.end {
+                    Some(tail) => (*tail.as_ptr()).next = Some(chosen),
+                    None => result.start = Some(chosen),
+                }
+
+                result.end = Some(chosen);
+            }
+        }
+
+        // 一边用完后，另一边剩余的节点可以整段接上。
+        let (remaining, remaining_end) = if a.is_some() {
+            (a, list_a.end)
+        } else {
+            (b, list_b.end)
+        };
+
+        // SAFETY: 两条输入链表起初都非空，所以循环至少执行一次，
+        // result.end 必然存在且有效；剩余节点尚未接入结果链表。
+        unsafe {
+            let tail = result.end.unwrap();
+            (*tail.as_ptr()).next = remaining;
+        }
+
+        result.end = remaining_end;
+
+        result
+    }
 }
 
 impl<T> Display for LinkedList<T>

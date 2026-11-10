@@ -24,7 +24,6 @@ enum IntoColorError {
     IntConversion,
 }
 
-// I AM NOT DONE
 
 // 你的任务是补全下面的实现，成功时返回内部值为 Color 的 Ok 结果。
 // 需要分别为三种输入实现转换：包含三个整数的元组、
@@ -38,6 +37,11 @@ enum IntoColorError {
 impl TryFrom<(i16, i16, i16)> for Color {
     type Error = IntoColorError;
     fn try_from(tuple: (i16, i16, i16)) -> Result<Self, Self::Error> {
+        let (r,g,b)=tuple;
+        if r>=0 && r<=255 &&g>=0 && g<=255 && b>=0 && b<=255{
+            return Ok(Color { red: r as u8, green: g as u8, blue: b as u8 })
+        }
+        Err(IntoColorError::IntConversion)
     }
 }
 
@@ -45,6 +49,13 @@ impl TryFrom<(i16, i16, i16)> for Color {
 impl TryFrom<[i16; 3]> for Color {
     type Error = IntoColorError;
     fn try_from(arr: [i16; 3]) -> Result<Self, Self::Error> {
+        let r= arr[0];
+        let g= arr[1];
+        let b= arr[2];
+        if r>=0 && r<=255 &&g>=0 && g<=255 && b>=0 && b<=255{
+            return Ok(Color { red: r as u8, green: g as u8, blue: b as u8 })
+        }
+        Err(IntoColorError::IntConversion)
     }
 }
 
@@ -52,6 +63,16 @@ impl TryFrom<[i16; 3]> for Color {
 impl TryFrom<&[i16]> for Color {
     type Error = IntoColorError;
     fn try_from(slice: &[i16]) -> Result<Self, Self::Error> {
+        let mut it = slice.into_iter();
+        match (it.next(),it.next(),it.next(),it.next()){
+            (Some(&r),Some(&g),Some(&b),None) =>{
+                if r>=0 && r<=255 &&g>=0 && g<=255 && b>=0 && b<=255{
+                    return Ok(Color { red: r as u8, green: g as u8, blue: b as u8 })
+                }
+                Err(IntoColorError::IntConversion)
+            }
+            _ =>Err(IntoColorError::BadLen)
+        }
     }
 }
 
